@@ -49,7 +49,6 @@ from typing import Optional, Dict, Any, List
 import numpy as np
 import pandas as pd
 import streamlit as st
-import ctranslate2
 from streamlit_mic_recorder import mic_recorder
 # ------------------------------------------------------------------------------------
 # OPTIONAL / SOFT DEPENDENCIES
@@ -64,6 +63,7 @@ try:
     WHISPER_AVAILABLE = True
 except Exception:
     WHISPER_AVAILABLE = False
+    openai_whisper = None
 
 # --- Faster-Whisper (local, CTranslate2) ---------------------------------------------
 try:
