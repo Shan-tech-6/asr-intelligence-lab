@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Logs
+*.log
+
+# Excel logs
+asr_lab_logs.xlsx
+
+# Temporary audio
+*.wav
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Python cache
+.pytest_cache/
+
+shrutam2/
+
+
+api_keys.txt
+.env
+*.log
+*.xlsx
+*.pt
+*.safetensors
+*.pt
+*.pth
+*.safetensors
+models/
+.cache/
+
+# secrets
+api_keys.txt
+*.env
+.env

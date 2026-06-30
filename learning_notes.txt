@@ -1,0 +1,14 @@
+VAD = Voice Activity Detection
+Detects speech and removes silence.
+
+ASR/STT = Speech to Text
+Converts voice into text.
+
+LLM = Large Language Model
+Processes text and generates responses.
+
+TTS = Text to Speech
+Converts text into voice.
+
+Pipeline:
+Voice → VAD → ASR → LLM → TTS → Voice Response
